@@ -8,9 +8,9 @@ body {
   margin: 5% 0% -3% 5%;
 }
 
-/* .class-hide {
+.class-hide {
   display: none;
-} */
+}
 
 .menu-bg {
   height: 100vh;
@@ -36,6 +36,21 @@ body {
   margin-bottom: 2%;
 }
 
+.nav-wrapper li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.register {
+  color: #ec5242;
+  margin: 15% 0% 5% 25%;
+  text-decoration: none;
+  background-color: white;
+  padding: 5% 8%;
+  border: #ec5242 2px solid;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -57,6 +72,18 @@ footer {
   width: 31px;
   text-decoration: none;
   color: beige;
+}
+
+.main-class {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #f7f6f6;
+  background-image: url(img/bg.jpg);
+  background-position: 93% 6%;
+  background-repeat: no-repeat;
+  background-size: 106%;
+  padding: 1% 5% 15% 5%;
 }
 
 .nav-link img {

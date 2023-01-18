@@ -97,7 +97,7 @@ h1 {
   color: #ec5242;
   font-weight: 900;
   font-size: 1.2rem;
-  margin: 12% 0% 0% 0%;
+  margin: 15% 0% 0% 0%;
   padding: 0% 0% 0% 0%;
 }
 
@@ -137,6 +137,47 @@ h1 {
 .nav-link img {
   width: 48%;
   margin: 11% 24% 0% 25%;
+}
+
+.program {
+  background-color: #272a31;
+  color: white;
+  background-image: url(img/josue.png);
+  padding: 8% 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-resume {
+  font-size: 0.8rem;
+}
+
+.program-lesson {
+  color: #ec5242;
+}
+
+.program-card {
+  grid-template-columns: 1fr 1.5fr 3.2fr;
+  align-items: center;
+  display: grid;
+  padding: 0% 1%;
+  max-height: 89%;
+  margin-bottom: 1%;
+  background-color: rgb(127, 127, 127, 0.3);
+}
+
+.program-wrapper {
+  display: grid;
+  margin: 10% 0%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.underline {
+  border-bottom: #ec5242 solid 1px;
+  height: 1.5px;
+  width: 12%;
+  margin: 0%;
 }
 
 @media screen and (min-width) {

@@ -9,7 +9,7 @@ body {
 }
 
 .class-hide {
-  display: none;
+  /* display: none; */
 }
 
 .menu-bg {
@@ -222,10 +222,46 @@ h1 {
   align-items: center;
 }
 
+.hide-lecture {
+  /* display: unset; */
+  display: none;
+}
+
 .display-boutton {
   display: flex;
   flex-direction: column;
   width: 42%;
+}
+
+.partener-name {
+  color: #f7f6f6;
+}
+
+.parterner-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.parteners-main {
+  /* display: none; */
+  background-color: #272a31;
+}
+
+.parteners-info {
+  padding-right: 5%;
+  margin-top: 6%;
+}
+
+.parteners-info img {
+   width: 50%;
+   grid-template-columns: 1fr 1fr 1fr;
+   max-width: 100%;
+  }
+
+.footer {
+  background-color: #272a31;
+  color: #d3d3d3;
 }
 
 @media screen and (min-width) {

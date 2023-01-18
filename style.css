@@ -93,6 +93,23 @@ footer {
   margin: 12% 0% 0% 0%;
 }
 
+h1 {
+  color: #ec5242;
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin: 12% 0% 0% 0%;
+  padding: 0% 0% 0% 0%;
+}
+
+.tech-explain {
+  border: white 2px solid;
+  color: #272a31;
+  background-color: rgb(242, 242, 242);
+  max-width: 90%;
+  margin: 3% 0% 0% 0%;
+  padding: 5%;
+}
+
 .nav-link img {
   width: 48%;
   margin: 11% 24% 0% 25%;

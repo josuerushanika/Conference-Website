@@ -149,6 +149,17 @@ h1 {
   align-items: center;
 }
 
+.join-program {
+  background-color: #ec5242;
+  text-decoration: none;
+  color: white;
+  padding: 9% 9% 8% 9%;
+}
+
+.program-card img {
+  width: 82%;
+}
+
 .program-resume {
   font-size: 0.8rem;
 }
@@ -179,6 +190,8 @@ h1 {
   width: 12%;
   margin: 0%;
 }
+
+
 
 @media screen and (min-width) {
   .hamburger {

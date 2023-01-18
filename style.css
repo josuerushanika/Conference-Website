@@ -191,7 +191,42 @@ h1 {
   margin: 0%;
 }
 
+.lecture-list {
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+  align-items: center;
+}
 
+.lecture-list-one {
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 11%;
+  display: flex;
+}
+
+.lecture-display {
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+}
+
+.lecture-text {
+  margin-bottom: 4%;
+  font-size: 1.5rem;
+}
+
+.show-more {
+  display: flex;
+  border: #e0e0e0 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-boutton {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+}
 
 @media screen and (min-width) {
   .hamburger {

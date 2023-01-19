@@ -9,7 +9,7 @@ body {
 }
 
 .class-hide {
-  /* display: none; */
+  display: none;
 }
 
 .menu-bg {
@@ -244,7 +244,7 @@ h1 {
 }
 
 .parteners-main {
-  /* display: none; */
+  display: none;
   background-color: #272a31;
 }
 
@@ -254,17 +254,50 @@ h1 {
 }
 
 .parteners-info img {
-   width: 50%;
-   grid-template-columns: 1fr 1fr 1fr;
-   max-width: 100%;
-  }
+  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%;
+}
 
 .footer {
   background-color: #272a31;
   color: #d3d3d3;
 }
 
-@media screen and (min-width) {
+@media screen and (min-width: 769px) {
+  .header-menu {
+    display: block;
+    background-color: #272a31;
+    padding: 0.1% 10%;
+  }
+
+  .header-menu-wrap {
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header-menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+
+  .header-menu-item img {
+    width: 20%;
+    justify-content: center;
+  }
+
+  .header-menu-item {
+    margin-left: 2%;
+    list-style: none;
+  }
+
+  .close {
+    display: none;
+  }
+
   .hamburger {
     display: none;
   }

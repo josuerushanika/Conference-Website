@@ -373,4 +373,79 @@ h1 {
     background-position: 53% 143%;
     background-image: url(./img/josue-main.png);
   }
+
+  .headingred {
+    padding: 0% 0% 0% 0%;
+    margin: 2% 0% 0% 0%;
+    font-size: 3.7rem;
+    font-weight: 900;
+  }
+
+  .address {
+    color: #272a31;
+    margin-top: 5%;
+    margin-bottom: 2.6%;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+  .tech-explain {
+    width: 52%;
+    padding: 3.2%;
+  }
+
+  .underline {
+    width: 8%;
+  }
+
+  .title-red {
+    margin: 13% 0% 0% 0%;
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+
+  .program-wrapper {
+    height: 10%;
+    margin: 5% 0% 0% 0%;
+    display: grid;
+    grid-template-rows: unset;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+
+  .program {
+    height: 10%;
+    padding: 4% 5%;
+  }
+
+  .program-card {
+    height: 60%;
+    padding: 10%;
+    justify-items: center;
+    margin-right: 1%;
+    display: grid;
+    grid-template-rows: 2fr 1.5fr 3fr;
+    grid-template-columns: unset;
+  }
+
+  .join-program {
+    display: none;
+  }
+
+  .program-lesson {
+    font-size: 1.1rem;
+  }
+
+  .program-card img {
+    width: 40%;
+  }
+
+  .see-whole {
+    display: block;
+    color: #f7f6f6;
+  }
+  .program-resume {
+    color: aliceblue;
+    font-size: 0.8rem;
+  }
 }

@@ -346,12 +346,31 @@ h1 {
     display: flex;
   }
 
+  .register {
+    padding: 1% 1%;
+    margin: 0% 0% 0% 0%;
+    position: relative;
+  }
+
+  #about {
+    color: #ec5242;
+  }
+
   .nav-wrapper li a {
+    font-size: 0.8rem;
     color: black;
   }
 
   .nav-wrapper li {
     margin: 0;
     padding: 0% 8%;
+  }
+
+  .main-class {
+    background-size: 137%;
+    background-repeat: repeat-y;
+    padding: 1% 5% 10% 10%;
+    background-position: 53% 143%;
+    background-image: url(./img/josue-main.png);
   }
 }

@@ -223,7 +223,7 @@ h1 {
 }
 
 .hide-lecture {
-  /* display: unset; */
+  display: unset;
   display: none;
 }
 
@@ -260,8 +260,9 @@ h1 {
 }
 
 .footer {
-  background-color: #272a31;
-  color: #d3d3d3;
+  background-color: white;
+
+  /* color: #272a31; */
 }
 
 @media screen and (min-width: 769px) {
@@ -412,7 +413,6 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
-
   .program {
     height: 10%;
     padding: 4% 5%;
@@ -444,8 +444,58 @@ h1 {
     display: block;
     color: #f7f6f6;
   }
+
+  .lecture-text {
+    font-size: 1.4rem;
+    margin-bottom: 1.99%;
+  }
+
+  .lecture-list-one {
+    width: 98%;
+    margin-bottom: 5%;
+  }
+
+  /* class dynamic */
+  .lecture-display {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  .display-boutton {
+    display: none;
+  }
+
+  .hide-lecture {
+    display: grid;
+    display: unset;
+  }
+
   .program-resume {
     color: aliceblue;
     font-size: 0.8rem;
+  }
+
+  .parterner-title {
+    width: 99%;
+  }
+
+  .partener-name {
+    font-size: 1.499rem;
+    color: #d3d3d3;
+  }
+
+  .parteners-info {
+    display: flex;
+  }
+
+  .parteners-info img {
+    margin-right: 2%;
+    width: 20%;
+  }
+
+  .parteners-main {
+    height: 46vh;
+    padding: 6%;
+    display: block;
   }
 }

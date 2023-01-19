@@ -13,10 +13,39 @@ body {
 
 #info {
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   font-weight: 700;
+
   /* margin-top: 0.5%; */
+}
+
+.about-logo {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  padding: 2% 8%;
+}
+
+.logo-topic {
+  margin-bottom: 2%;
+  text-align: center;
+  width: 70%;
+}
+
+.logo-box {
+  margin: 10% 0%;
+  padding: 0%;
+  height: 10%;
+  max-width: 85%;
+  border: #e5e5e5 solid 1px;
+}
+
+.description {
+  text-align: center;
+  line-height: 18px;
+  margin-top: 5%;
+  font-size: 1rem;
 }
 
 .hamburger {
@@ -269,6 +298,28 @@ h1 {
   margin-top: 6%;
 }
 
+.old-training {
+  padding: 6%;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  border-top: #dbdbdb solid 1px;
+  border-bottom: #dbdbdb solid 1px;
+}
+
+.trainingimg {
+  margin: 9% 9%;
+  max-width: 100%;
+}
+
+.image img {
+  width: 45%;
+  max-width: 100%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  vertical-align: middle;
+}
+
 .parteners-info img {
   width: 50%;
   grid-template-columns: 1fr 1fr 1fr;
@@ -369,8 +420,8 @@ h1 {
     position: relative;
   }
 
-  #about {
-    color: #ec5242;
+  .about {
+    color: red;
   }
 
   .nav-wrapper li a {

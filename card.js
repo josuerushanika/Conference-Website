@@ -1,13 +1,3 @@
-const hamburger = document.querySelector('.hamburger');
-// const classhide = document.querySelector('.class-hide');
-const headnav = document.querySelector('.head-nav');
-
-if (hamburger) {
-  hamburger.addEventListener('click', () => {
-    headnav.style.display = 'block';
-  });
-}
-
 const lectures = [
   {
     id: 1,
@@ -59,46 +49,4 @@ const lectures = [
 
 ];
 
-function iDiv(f = 'div') {
-  if (!f) {
-    f = 'div';
-  }
-
-  return document.createElement(f);
-}
-
-function speakers() {
-  const display = document.querySelector('.lecture-display');
-  lectures.forEach((speaker) => {
-    const speker = iDiv();
-    speker.classList.add('speker');
-
-    const img = iDiv();
-    img.classList.add('spekerimg');
-    img.innerHTML = `<img class='speaker-img' src='${speaker.image}' alt='${speaker.name}'/>`;
-
-    const details = iDiv();
-    details.classList.add('details');
-
-    const name = iDiv('h2');
-    name.classList.add('name');
-    name.innerText = speaker.name;
-
-    const titre = iDiv('h4');
-    titre.classList.add('titre');
-    titre.innerText = speaker.titre;
-
-    const about = iDiv('p');
-    about.classList.add('about');
-    about.innerText = speaker.about;
-
-    details.append(name, titre, about);
-    speker.append(img, details);
-
-    display.appendChild(speker);
-  });
-}
-
-window.onload = () => {
-  speakers();
-};
+export default lectures;

@@ -8,6 +8,14 @@ body {
   margin: 5% 0% -3% 5%;
 }
 
+.header-menu {
+  display: none;
+}
+
+.logo {
+  display: none;
+}
+
 .class-hide {
   display: none;
 }
@@ -24,6 +32,7 @@ body {
   left: 2%;
   top: 2%;
   width: 10%;
+  display: none;
 }
 
 .nav-wrapper {
@@ -49,6 +58,7 @@ body {
   background-color: white;
   padding: 5% 8%;
   border: #ec5242 2px solid;
+  display: none;
 }
 
 footer {
@@ -66,6 +76,7 @@ footer {
   background-color: #272a31;
   top: 6%;
   left: 14%;
+  display: none;
 }
 
 .hamburger img {
@@ -271,6 +282,10 @@ h1 {
     background-color: #272a31;
     padding: 0.1% 10%;
   }
+
+  /* .registerhide {
+    display: none;
+  } */
 
   .header-menu-wrap {
     margin: 0;

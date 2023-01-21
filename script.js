@@ -1,3 +1,24 @@
+const hamburger = document.querySelector('.hamburger')
+const closes = document.querySelector('.closebtn');
+const mobile = document.querySelector('.nav-mobile');
+
+if (hamburger && mobile) {
+  hamburger.addEventListener('click', () => {
+    mobile.style.display= 'block'
+    hamburger.style.display= 'none'
+    closes.style.display= 'block'
+  });
+}
+
+if(closes) {
+  closes.addEventListener('click', () => {
+    mobile.style.display= 'none'
+    hamburger.style.display= 'block'
+    closes.style.display= 'none'
+  });
+}
+
+
 const lectures = [
   {
     id: 1,

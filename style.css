@@ -279,8 +279,8 @@ h1 {
 }
 
 .lecture-resu {
-  font-weight: 400;
-  color: rgb(94, 86, 86);
+  font-weight: 100;
+  color: rgb(20, 20, 20);
   font-size: 0.825rem;
 }
 
@@ -584,6 +584,11 @@ h1 {
     color: #727271;
     font-size: 0.625rem;
   }
+
+  ..hamburger img {
+    display: none;
+  }
+   
 
   .display-boutton {
     display: none;

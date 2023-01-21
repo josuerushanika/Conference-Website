@@ -1,13 +1,3 @@
-const hamburger = document.querySelector('.hamburger');
-// const classhide = document.querySelector('.class-hide');
-const headnav = document.querySelector('.head-nav');
-
-if (hamburger) {
-  hamburger.addEventListener('click', () => {
-    headnav.style.display = 'block';
-  });
-}
-
 const lectures = [
   {
     id: 1,
@@ -59,46 +49,42 @@ const lectures = [
 
 ];
 
-function iDiv(f = 'div') {
-  if (!f) {
-    f = 'div';
+const plusBtn = document.querySelector('#plus');
+const withdrawBtn = document.querySelector('#withdraw');
+const lecturedisplay = document.querySelector('.lecture-display');
+
+for (let i = 0; i < lectures.length; i += 1) {
+  lecturedisplay.innerHTML += `<div class="lecture-all">
+    <img src="${lectures[i].image}" alt="" class="image-lecture">
+    <div class="lecture-desc">
+      <h4 class="lecture-nom">${lectures[i].name} </h4>
+      <p class="lecture-titre">${lectures[i].titre} </p>
+      <p class="lecture-resu">${lectures[i].about} </p>
+    </div>
+ </div> `;
+
+  const lectureall = document.querySelectorAll('.lecture-all');
+  if (i > 1) {
+    lectureall[i].classList.add('hide-lecture');
   }
-
-  return document.createElement(f);
 }
 
-function speakers() {
-  const display = document.querySelector('.lecture-display');
-  lectures.forEach((speaker) => {
-    const speker = iDiv();
-    speker.classList.add('speker');
-
-    const img = iDiv();
-    img.classList.add('spekerimg');
-    img.innerHTML = `<img class='speaker-img' src='${speaker.image}' alt='${speaker.name}'/>`;
-
-    const details = iDiv();
-    details.classList.add('details');
-
-    const name = iDiv('h2');
-    name.classList.add('name');
-    name.innerText = speaker.name;
-
-    const titre = iDiv('h4');
-    titre.classList.add('titre');
-    titre.innerText = speaker.titre;
-
-    const about = iDiv('p');
-    about.classList.add('about');
-    about.innerText = speaker.about;
-
-    details.append(name, titre, about);
-    speker.append(img, details);
-
-    display.appendChild(speker);
+const lectureall = document.querySelectorAll('.lecture-all');
+plusBtn.addEventListener('click', () => {
+  lectureall.forEach((josue) => {
+    josue.classList.remove('hide-lecture');
+    plusBtn.classList.add('hide-lecture');
+    withdrawBtn.classList.remove('hide-lecture');
   });
-}
+});
 
-window.onload = () => {
-  speakers();
-};
+withdrawBtn.addEventListener('click', () => {
+  lectureall.forEach((josue, index) => {
+    if (index > 1) {
+      josue.classList.add('hide-lecture');
+    }
+
+    plusBtn.classList.remove('hide-lecture');
+    withdrawBtn.classList.add('hide-lecture');
+  });
+});

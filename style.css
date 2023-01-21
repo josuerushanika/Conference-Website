@@ -8,13 +8,9 @@ body {
   margin: 5% 0% -3% 5%;
 }
 
-.header-menu {
+/* .header-menu {
   display: none;
-}
-
-.logo {
-  display: none;
-}
+} */
 
 .class-hide {
   display: none;
@@ -76,7 +72,7 @@ footer {
   background-color: #272a31;
   top: 6%;
   left: 14%;
-  display: none;
+  /* display: none; */
 }
 
 .hamburger img {
@@ -476,6 +472,42 @@ h1 {
     display: grid;
   }
 
+  .lecture-all {
+    display: flex;
+   
+  }
+
+  .lecture-all img {
+    width: 150px;
+    height: 150px;
+    /* margin-right: 2%; */
+  }
+
+  /* .lecture-desc {
+    display: grid;
+  } */
+  /* .lecture-desc > * {
+    padding: 0% 0% 0% 5%;
+    margin: 2.5% 0%;
+  } */
+
+
+  .lecture-nom {
+    font-size: 1.2rem;
+  }
+
+  .lecture-titre {
+    color: #ec5242;
+    font-style: italic;
+    font-size: 0.67rem;
+  }
+
+  .lecture-resu {
+    font-weight: 300;
+    color: #727271;
+    font-size: 0.625rem;
+  }
+
   .display-boutton {
     display: none;
   }
@@ -508,6 +540,9 @@ h1 {
     width: 20%;
   }
 
+  /* .lecture-all {
+    margin: 0% 1% 5% 0%;
+  } */
   .parteners-main {
     height: 46vh;
     padding: 6%;

@@ -93,7 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Live Demo Link](https://josuerushanika.github.io/capstone1/)
+- [Live Demo Link](https://josuerushanika.github.io/Rwanda-Conference/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +137,7 @@ Example command:
 Clone this repository to your desired folder:
 ```sh
     cd your-desired-folder
-    git clone https://github.com/josuerushanika/capstone1.git
+    git clone https://github.com/josuerushanika/Rwanda-Conference.git
 ```
 <!--
 Example commands:
@@ -153,7 +153,7 @@ Example commands:
 Install this project with:
 ```sh
     cd your-desired-folder
-    git clone https://github.com/josuerushanika/capstone1.git
+    git clone https://github.com/josuerushanika/Rwanda-Conference.git
 ```
 
 

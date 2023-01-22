@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>capstone1</b></h3>
+  <h3><b>Rwanda Conference</b></h3>
 
 </div>
 

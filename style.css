@@ -26,12 +26,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #272a31;
   width: 100%;
   height: 100vh;
   position: fixed;
   z-index: 1;
-  background: rgba(186, 47, 47, 0.778);
+  background-color: rgba(186, 47, 47, 0.778);
   backdrop-filter: blur(5px);
   margin: 0;
   padding: 0;
@@ -46,6 +45,18 @@ body {
   justify-content: center;
   margin-top: 100px;
   list-style: none;
+}
+
+.nav-wrapper li {
+  list-style: none;
+  padding: 0% 9%;
+  margin-bottom: 2%;
+}
+
+.nav-wrapper li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
 }
 
 .wrapper ul li {
@@ -77,30 +88,16 @@ body {
   z-index: 2;
   float: right;
   margin: 20px;
-  background-color: transparent;
   border: none;
-  color:#fff;
+  color: #fff;
   font-size: 1.5rem;
   background-color: black;
   padding: 5px 8px;
   border-radius: 50%;
 }
 
-
 .nav-wrapper {
   margin-bottom: 59%;
-}
-
-.nav-wrapper li {
-  list-style: none;
-  padding: 0% 9%;
-  margin-bottom: 2%;
-}
-
-.nav-wrapper li a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.1rem;
 }
 
 .register {
@@ -341,7 +338,6 @@ h1 {
 }
 
 @media screen and (min-width: 769px) {
-
   * {
     overflow-x: visible;
   }
@@ -384,12 +380,9 @@ h1 {
   }
 
   .menu-bg {
-    /* position: static;
-    position: unset; */
     width: 100%;
     height: 9%;
     display: block;
-    /* background-color: #272a31; */
     overflow: hidden;
   }
 
@@ -406,23 +399,13 @@ h1 {
 
   .nav-link {
     display: flex;
-    /* padding: 1% 10% 0% 10%; */
-    /* align-items: center; */
     justify-content: space-between;
-    display: flex;
-    /* position: static; */
-    /* position: unset; */
   }
 
   .head-nav {
-    /* height: 100%; */
-    width: 100%; 
-    /* top: 0%; */
-    /* left: 0%; */
+    width: 100%;
     display: flex;
     border: none;
-    /* position: static; */
-    /* position: unset; */
     background-color: transparent;
     overflow: hidden;
     justify-content: space-around;
@@ -433,7 +416,7 @@ h1 {
     margin: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
   }
 
   .closebtn {
@@ -441,7 +424,7 @@ h1 {
   }
 
   .register {
-    display: flex;
+    /* display: flex; */
     color: #ec5242;
     margin: 8px 10px;
     text-decoration: none;
@@ -455,14 +438,14 @@ h1 {
     color: #ec5242;
   }
 
-  .nav-wrapper li a {
-    font-size: 0.8rem;
-    color: black;
-  }
-
   .nav-wrapper li {
     margin: 0;
     padding: 0% 8%;
+  }
+
+  .nav-wrapper li a {
+    font-size: 0.8rem;
+    color: black;
   }
 
   .main-class {
@@ -561,7 +544,6 @@ h1 {
 
   .lecture-all {
     display: flex;
-   
   }
 
   .lecture-all img {
@@ -588,7 +570,6 @@ h1 {
   ..hamburger img {
     display: none;
   }
-   
 
   .display-boutton {
     display: none;
@@ -621,5 +602,4 @@ h1 {
     padding: 6%;
     display: block;
   }
-
 }

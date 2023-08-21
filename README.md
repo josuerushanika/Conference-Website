@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="img/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="img/logo.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Rwanda Conference</b></h3>
